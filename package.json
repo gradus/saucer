@@ -1,0 +1,20 @@
+{
+  "author": "Kris Windham <kriswindham@gmail.com> (krwindham.jit.su)",
+  "name": "saucer",
+  "description": "node framework",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gradus/saucer.git"
+  },
+  "main": "./lib/saucer",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
