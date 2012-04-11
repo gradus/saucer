@@ -40,18 +40,28 @@ Keep your eyes peeled to the sky and maybe you will see it.
 
 
 
-## A minimalist node module that does nothing
+## A minimalist node module that does nothing at all
+
+## When it lands, will be a coffescript framework w/ CoffeeCup templating
+A featureless but fully pluggable framework.
 
 ### Usage
 
     npm install saucer
 
-##### App
 
+**App.coffee**
 ```coffeecript
 require 'saucer'
 
-app == saucer.app
+app = saucer.app
 
-app.get /hello(Earth)
-  @res.render Earth
+earth = app.render view: earth
+
+app.get /hello(earth)
+  @res earth
+
+app.listen 8888
+app.log listening on port 8888
+
+```
