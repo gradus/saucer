@@ -6,3 +6,9 @@
 
 
 Keep your eyes to peeled to the sky.
+
+## A minimilast node module that does nothing
+
+### Usage
+
+    npm install saucer

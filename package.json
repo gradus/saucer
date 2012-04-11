@@ -9,10 +9,13 @@
   },
   "main": "./lib/saucer",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "1.0.1",
+    "should": "*"
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "*"
