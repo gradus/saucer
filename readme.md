@@ -23,16 +23,12 @@
                                  Z7I7??++?++?++++?7IZ8..                  
                                 =ZZ.$O,....I.....D=.O8~                   
                                .Z7.7O..  . O..  ..87, 8..                 
-                             ..=Z:.Z..    .O.   ..$$,.O=..                
-                             ..O=.OI .   ..$I    . OO$.Z..                
-                             .7$.:O..     ..?     ..8I.O7                 
-                              $.?$ .      ..$ .     .ZI.O7..              
-                           ..Z$$7 .         O?      ..OZOO~.              
-                           .?$.Z...        .7I .     .~$.77.              
-                          ..Z Z,. .        .$Z? ..   . ZZ~ZI...           
-                        .. Z$Z$.        . ?+7OZ??? .  ..OZO7,             
-                          +$$$..         .........    ...OOOZ..           
-                          Z$7, .                       ...ZZZO ..         
+                             ..ZZ:.Z..    .O0.   ..$$,O=..                
+                           .?$ZZ...        .7I .   .~$.77.              
+                          ..Z Z,.         .$Z?..    .ZZ~ZI.           
+                        . Z$Z$.        . ?+7OZ???   ..OZO7,             
+                         +$$$..         .........    ...OOOZ..           
+                         Z$7, .                       ...ZZZO ..         
                       ..I$I7Z..                         ..ZIO8Z+ .        
                     ..$ZZO8OO?.. __    __  __  ___  ___ .I88OOOO..
                          / __)  /__\  (  )(  )/ __)( ___)(  _ \
@@ -49,3 +45,13 @@ Keep your eyes peeled to the sky and maybe you will see it.
 ### Usage
 
     npm install saucer
+
+##### App
+
+```coffeecript
+require 'saucer'
+
+app == saucer.app
+
+app.get /hello(Earth)
+  @res.render Earth
