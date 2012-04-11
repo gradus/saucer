@@ -50,11 +50,10 @@ A featureless but fully pluggable framework.
     npm install saucer
 
 
-**App.coffee**
+**app.coffee**
 
 ```coffeecript
-require 'saucer'
-
+saucer = require 'saucer'
 app = saucer.app
 
 earth = app.render view: earth
