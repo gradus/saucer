@@ -5,7 +5,7 @@
     (___/(__)(__)(______)\___)(____)(_)\_)
 
 
-Keep your eyes to peeled to the sky.
+Keep your eyes peeled to the sky and maybe you will see it.
 
 ## A minimalist node module that does nothing
 
