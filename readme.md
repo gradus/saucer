@@ -7,7 +7,7 @@
 
 Keep your eyes to peeled to the sky.
 
-## A minimilast node module that does nothing
+## A minimalist node module that does nothing
 
 ### Usage
 
