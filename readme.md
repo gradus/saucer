@@ -51,6 +51,7 @@ A featureless but fully pluggable framework.
 
 
 **App.coffee**
+
 ```coffeecript
 require 'saucer'
 
