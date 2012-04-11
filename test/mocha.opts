@@ -1,4 +1,4 @@
-describe 'main', ->
-  it 'should be true', ->
-    x = true
-    x.should.equal(true)
+--require should 
+--require coffee-script
+--colors
+--compilers coffee:coffee-script
