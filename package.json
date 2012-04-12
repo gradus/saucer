@@ -12,21 +12,19 @@
   },
   "main": "./lib/saucer",
   "engines": {
-    "node": ">= 0.6.7"
+    "node": "0.6.14"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"
   },
   "dependencies": {
     "pkginfo": "~0.2.3",
-    "coffeecup": "~0.3.8"
+    "coffeecup": "~0.3.8",
+    "colors": "~0.6.0-1"
   },
   "devDependencies": {
     "mocha": "1.0.0",
     "should": "0.6.0"
   },
-  "optionalDependencies": {},
-  "engines": {
-    "node": "0.6.14"
-  }
+  "optionalDependencies": {}
 }

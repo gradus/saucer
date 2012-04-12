@@ -1,6 +1,8 @@
-log = module.exports
+log = exports
 
-log.info ( (output) ->
-  console.log output
-)
+require 'colors'
+
+log.info = (output) ->
+  console.log output.cyan
+
 
