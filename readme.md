@@ -49,7 +49,7 @@ Keep your eyes peeled to the sky and maybe you will see it.
 
 ** server.js **
 
-    require 'saucer'
+    require('saucer');
 
 
 #### fly Saucer
