@@ -1,5 +1,6 @@
 log = exports
 
-info (output) ->
+log.info ( (output) ->
   console.log output
+)
 
