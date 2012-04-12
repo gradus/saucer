@@ -25,5 +25,6 @@ cc = require 'coffeecup'
 saucer = exports
 
 saucer.App  = require('./saucer/app').App
+saucer.log = require('./saucer/log')
 
-log 'Hello Earth'
+saucer.log.info 'Hello Earth'
