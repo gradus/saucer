@@ -1,3 +1,3 @@
 app = exports.App
 
-console.log 'ready for liftoff'
+console.log 'Hello Earth'
