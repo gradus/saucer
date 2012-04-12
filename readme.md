@@ -42,14 +42,15 @@ Keep your eyes peeled to the sky and maybe you will see it.
 
 ## A minimalist node module that does nothing at all
 
-## When it lands, will be a CoffeScript framework w/ CoffeeCup templating
-A featureless but fully pluggable framework.
-
 ### Usage
 
     npm install saucer
 
     require 'saucer'
+
+
+## When Saucer lands, it will be a CoffeScript framework w/ CoffeeCup templating
+A featureless but fully pluggable framework.
 
 
 ###Possible http routing and server syntax
