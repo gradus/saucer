@@ -40,13 +40,21 @@ Keep your eyes peeled to the sky and maybe you will see it.
 
 
 
-## A minimalist node module that does nothing at all
+## A minimalist node module that does very little
 
 ### Usage
 
     npm install saucer
 
+
+** server.js **
+
     require 'saucer'
+
+
+#### fly Saucer
+
+    node server.js
 
 
 ## When Saucer lands, it will be a CoffeScript framework w/ CoffeeCup templating
