@@ -40,7 +40,7 @@ Keep your eyes peeled to the sky and maybe you will see it.
 
 
 
-## A minimalist node module that does very little
+## A minimalist node module reaching out with a welcome message
 
 ### Usage
 
