@@ -49,6 +49,10 @@ A featureless but fully pluggable framework.
 
     npm install saucer
 
+    require 'saucer'
+
+
+###Possible http routing and server syntax
 
 **app.coffee**
 
