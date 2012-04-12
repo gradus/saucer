@@ -71,7 +71,7 @@ app = saucer.app
 
 earth = app.render view: earth
 
-app.get /hello earth, -> 
+app.router.get '/', earth, -> 
   @res earth
 
 app.listen 8888

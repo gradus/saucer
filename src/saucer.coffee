@@ -26,5 +26,7 @@ saucer = exports
 
 saucer.App  = require('./saucer/app').App
 saucer.log = require('./saucer/log')
-
 saucer.log.info 'Hello Earth'
+saucer.log.warn '...Warning...'
+saucer.log.error 'Self destruction approaches'
+

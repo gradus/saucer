@@ -1,1 +1,1 @@
-require('../bin/saucer')
+saucer = require('../bin/saucer')
