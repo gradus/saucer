@@ -42,7 +42,7 @@ Keep your eyes peeled to the sky and maybe you will see it.
 
 ## A minimalist node module that does nothing at all
 
-## When it lands, will be a coffescript framework w/ CoffeeCup templating
+## When it lands, will be a CoffeScript framework w/ CoffeeCup templating
 A featureless but fully pluggable framework.
 
 ### Usage
