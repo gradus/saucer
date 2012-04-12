@@ -58,7 +58,7 @@ app = saucer.app
 
 earth = app.render view: earth
 
-app.get /hello(earth)
+app.get /hello earth, -> 
   @res earth
 
 app.listen 8888
