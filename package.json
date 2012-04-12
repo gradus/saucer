@@ -7,14 +7,23 @@
     "type": "git",
     "url": "git://github.com/gradus/saucer.git"
   },
+  "bin": {
+    "coffeecup": "./bin/saucer"
+  },
   "main": "./lib/saucer",
+  "engines": {
+    "node": ">= 0.6.7"
+  }
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"
   },
-  "dependencies": {},
+  "dependencies": {
+    "pkginfo": "~0.2.3",
+    "coffeecup": "~0.3.8"
+  },
   "devDependencies": {
     "mocha": "1.0.0",
-    "should": "0.6.0" 
+    "should": "0.6.0"
   },
   "optionalDependencies": {},
   "engines": {
