@@ -56,9 +56,9 @@ Keep your eyes peeled to the sky and maybe you will see it.
 
     node server.js
 
-
-## When Saucer lands, it will be a CoffeScript framework w/ CoffeeCup templating
-A featureless but fully pluggable framework.
+## When Saucer Lands ...
+## Will be a CoffeeScript/NodeJS framework w/ CoffeeCup templating
+A relatively featureless but fully pluggable framework.
 
 
 ###Possible http routing and server syntax
