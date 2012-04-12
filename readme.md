@@ -47,7 +47,7 @@ Keep your eyes peeled to the sky and maybe you will see it.
     npm install saucer
 
 
-** server.js **
+**server.js**
 
     require('saucer');
 
